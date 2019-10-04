@@ -1,4 +1,3 @@
-// Подключаем Gulp
 const gulp = require("gulp"),
 
     imagemin = require('gulp-imagemin'),
@@ -6,9 +5,6 @@ const gulp = require("gulp"),
     imageminPngquant = require('imagemin-pngquant'),
 
     debug = require('gulp-debug');
-
-
-
 
 gulp.task('imgminify', function(){
 
